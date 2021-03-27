@@ -15311,9 +15311,2078 @@
             ],
             "invocations": [
                 {
+                    "executionSuccessful": true,
                     "toolExecutionNotifications": []
                 }
             ]
         }
     ]
-}
+}   "text": "Found user data in a call to 'eval'. This is extremely dangerous because\nit can enable an attacker to execute remote code. See\nhttps://owasp.org/www-community/attacks/Code_Injection for more information\n"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/django/security/injection/code/user-eval.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 11,
+                                    "startColumn": 5,
+                                    "endLine": 11,
+                                    "endColumn": 34
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.django.security.injection.code.user-eval.user-eval",
+                    "message": {
+                        "text": "Found user data in a call to 'eval'. This is extremely dangerous because\nit can enable an attacker to execute remote code. See\nhttps://owasp.org/www-community/attacks/Code_Injection for more information\n"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/django/security/injection/code/user-eval.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 15,
+                                    "startColumn": 5,
+                                    "endLine": 15,
+                                    "endColumn": 31
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.django.security.injection.code.user-exec.user-exec",
+                    "message": {
+                        "text": "Found user data in a call to 'exec'. This is extremely dangerous because\nit can enable an attacker to execute remote code. See\nhttps://owasp.org/www-community/attacks/Code_Injection for more information.\n"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/django/security/injection/code/user-exec.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 5,
+                                    "startColumn": 5,
+                                    "endLine": 7,
+                                    "endColumn": 15
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.django.security.injection.code.user-exec.user-exec",
+                    "message": {
+                        "text": "Found user data in a call to 'exec'. This is extremely dangerous because\nit can enable an attacker to execute remote code. See\nhttps://owasp.org/www-community/attacks/Code_Injection for more information.\n"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/django/security/injection/code/user-exec.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 11,
+                                    "startColumn": 5,
+                                    "endLine": 11,
+                                    "endColumn": 34
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.django.security.injection.code.user-exec.user-exec",
+                    "message": {
+                        "text": "Found user data in a call to 'exec'. This is extremely dangerous because\nit can enable an attacker to execute remote code. See\nhttps://owasp.org/www-community/attacks/Code_Injection for more information.\n"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/django/security/injection/code/user-exec.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 15,
+                                    "startColumn": 5,
+                                    "endLine": 15,
+                                    "endColumn": 31
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.django.security.injection.mass-assignment.mass-assignment",
+                    "message": {
+                        "text": "Mass assignment detected. This can result in assignment to\nmodel fields that are unintended and can be exploited by\nan attacker. Instead of using '**request.POST', assign each field you\nwant to edit individually to prevent mass assignment. You can read\nmore about mass assignment at\nhttps://cheatsheetseries.owasp.org/cheatsheets/Mass_Assignment_Cheat_Sheet.html.\n"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/django/security/injection/mass-assignment.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 8,
+                                    "startColumn": 5,
+                                    "endLine": 8,
+                                    "endColumn": 43
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.django.security.injection.mass-assignment.mass-assignment",
+                    "message": {
+                        "text": "Mass assignment detected. This can result in assignment to\nmodel fields that are unintended and can be exploited by\nan attacker. Instead of using '**request.POST', assign each field you\nwant to edit individually to prevent mass assignment. You can read\nmore about mass assignment at\nhttps://cheatsheetseries.owasp.org/cheatsheets/Mass_Assignment_Cheat_Sheet.html.\n"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/django/security/injection/mass-assignment.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 14,
+                                    "startColumn": 5,
+                                    "endLine": 15,
+                                    "endColumn": 19
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.django.security.injection.email.xss-html-email-body.xss-html-email-body",
+                    "message": {
+                        "text": "Found request data in an EmailMessage that is set to use HTML.\nThis is dangerous because HTML emails are susceptible to XSS.\nAn attacker could inject data into this HTML email, causing XSS.\n"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/django/security/injection/email/xss-html-email-body.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 25,
+                                    "startColumn": 13,
+                                    "endLine": 35,
+                                    "endColumn": 14
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.django.security.injection.email.xss-send-mail-html-message.xss-send-mail-html-message",
+                    "message": {
+                        "text": "Found request data in 'send_mail(...)' that uses 'html_message'.\nThis is dangerous because HTML emails are susceptible to XSS.\nAn attacker could inject data into this HTML email, causing XSS.\n"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/django/security/injection/email/xss-send-mail-html-message.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 26,
+                                    "startColumn": 13,
+                                    "endLine": 37,
+                                    "endColumn": 14
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.django.security.injection.command.command-injection-os-system.command-injection-os-system",
+                    "message": {
+                        "text": "Request data detected in os.system. This could be vulnerable to a command injection and should be avoided. If this must be done, use the 'subprocess' module instead and pass the arguments as a list. See https://owasp.org/www-community/attacks/Command_Injection for more information."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/django/security/injection/command/command-injection-os-system.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 5,
+                                    "startColumn": 5,
+                                    "endLine": 6,
+                                    "endColumn": 29
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.django.security.injection.command.command-injection-os-system.command-injection-os-system",
+                    "message": {
+                        "text": "Request data detected in os.system. This could be vulnerable to a command injection and should be avoided. If this must be done, use the 'subprocess' module instead and pass the arguments as a list. See https://owasp.org/www-community/attacks/Command_Injection for more information."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/django/security/injection/command/command-injection-os-system.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 10,
+                                    "startColumn": 5,
+                                    "endLine": 11,
+                                    "endColumn": 52
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.django.security.injection.command.command-injection-os-system.command-injection-os-system",
+                    "message": {
+                        "text": "Request data detected in os.system. This could be vulnerable to a command injection and should be avoided. If this must be done, use the 'subprocess' module instead and pass the arguments as a list. See https://owasp.org/www-community/attacks/Command_Injection for more information."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/django/security/injection/command/command-injection-os-system.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 15,
+                                    "startColumn": 5,
+                                    "endLine": 16,
+                                    "endColumn": 33
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.django.security.injection.path-traversal.path-traversal-file-name.path-traversal-file-name",
+                    "message": {
+                        "text": "Data from request is passed to a file name `\"find %s -name '*.log'\"`.\nThis is a path traversal vulnerability: https://owasp.org/www-community/attacks/Path_Traversal\nTo mitigate, consider using os.path.abspath or os.path.realpath or Path library.\n"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/django/security/injection/path-traversal/path-traversal-file-name.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 7,
+                                    "startColumn": 7,
+                                    "endLine": 10,
+                                    "endColumn": 57
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.django.security.injection.path-traversal.path-traversal-file-name.path-traversal-file-name",
+                    "message": {
+                        "text": "Data from request is passed to a file name `'hours_{0}.csv'`.\nThis is a path traversal vulnerability: https://owasp.org/www-community/attacks/Path_Traversal\nTo mitigate, consider using os.path.abspath or os.path.realpath or Path library.\n"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/django/security/injection/path-traversal/path-traversal-file-name.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 24,
+                                    "startColumn": 7,
+                                    "endLine": 27,
+                                    "endColumn": 54
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.django.security.passwords.use-none-for-password-default.use-none-for-password-default",
+                    "message": {
+                        "text": "'new_password' is using the empty string as its default and is being used to set\nthe password on 'user'. If you meant to set an unusable password, set\nthe default value to 'None' or call 'set_unusable_password()'.\n"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/django/security/passwords/use-none-for-password-default.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 60,
+                                    "startColumn": 9,
+                                    "endLine": 63,
+                                    "endColumn": 20
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.django.security.passwords.use-none-for-password-default.use-none-for-password-default",
+                    "message": {
+                        "text": "'password' is using the empty string as its default and is being used to set\nthe password on 'user'. If you meant to set an unusable password, set\nthe default value to 'None' or call 'set_unusable_password()'.\n"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/django/security/passwords/use-none-for-password-default.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 71,
+                                    "startColumn": 5,
+                                    "endLine": 81,
+                                    "endColumn": 20
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.dangerous-template-string.dangerous-template-string",
+                    "message": {
+                        "text": "Found a template created with string formatting.\nThis is susceptible to server-side template injection\nand cross-site scripting attacks.\n"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/dangerous-template-string.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 8,
+                                    "startColumn": 5,
+                                    "endLine": 16,
+                                    "endColumn": 55
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.dangerous-template-string.dangerous-template-string",
+                    "message": {
+                        "text": "Found a template created with string formatting.\nThis is susceptible to server-side template injection\nand cross-site scripting attacks.\n"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/dangerous-template-string.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 21,
+                                    "startColumn": 5,
+                                    "endLine": 29,
+                                    "endColumn": 55
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.dangerous-template-string.dangerous-template-string",
+                    "message": {
+                        "text": "Found a template created with string formatting.\nThis is susceptible to server-side template injection\nand cross-site scripting attacks.\n"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/dangerous-template-string.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 47,
+                                    "startColumn": 5,
+                                    "endLine": 60,
+                                    "endColumn": 54
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.dangerous-template-string.dangerous-template-string",
+                    "message": {
+                        "text": "Found a template created with string formatting.\nThis is susceptible to server-side template injection\nand cross-site scripting attacks.\n"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/audit/render-template-string.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 7,
+                                    "startColumn": 5,
+                                    "endLine": 16,
+                                    "endColumn": 55
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.dangerous-template-string.dangerous-template-string",
+                    "message": {
+                        "text": "Found a template created with string formatting.\nThis is susceptible to server-side template injection\nand cross-site scripting attacks.\n"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/lang/security/audit/formatted-sql-query.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 45,
+                                    "startColumn": 21,
+                                    "endLine": 55,
+                                    "endColumn": 100
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.os-system-injection.os-system-injection",
+                    "message": {
+                        "text": "User data detected in os.system. This could be vulnerable to a command injection and should be avoided. If this must be done, use the 'subprocess' module instead and pass the arguments as a list."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/os-system-injection.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 11,
+                                    "startColumn": 12,
+                                    "endLine": 11,
+                                    "endColumn": 34
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.os-system-injection.os-system-injection",
+                    "message": {
+                        "text": "User data detected in os.system. This could be vulnerable to a command injection and should be avoided. If this must be done, use the 'subprocess' module instead and pass the arguments as a list."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/os-system-injection.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 17,
+                                    "startColumn": 12,
+                                    "endLine": 17,
+                                    "endColumn": 44
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.os-system-injection.os-system-injection",
+                    "message": {
+                        "text": "User data detected in os.system. This could be vulnerable to a command injection and should be avoided. If this must be done, use the 'subprocess' module instead and pass the arguments as a list."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/os-system-injection.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 23,
+                                    "startColumn": 12,
+                                    "endLine": 23,
+                                    "endColumn": 52
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.os-system-injection.os-system-injection",
+                    "message": {
+                        "text": "User data detected in os.system. This could be vulnerable to a command injection and should be avoided. If this must be done, use the 'subprocess' module instead and pass the arguments as a list."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/os-system-injection.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 29,
+                                    "startColumn": 12,
+                                    "endLine": 29,
+                                    "endColumn": 46
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.os-system-injection.os-system-injection",
+                    "message": {
+                        "text": "User data detected in os.system. This could be vulnerable to a command injection and should be avoided. If this must be done, use the 'subprocess' module instead and pass the arguments as a list."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/os-system-injection.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 34,
+                                    "startColumn": 5,
+                                    "endLine": 34,
+                                    "endColumn": 47
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.os-system-injection.os-system-injection",
+                    "message": {
+                        "text": "User data detected in os.system. This could be vulnerable to a command injection and should be avoided. If this must be done, use the 'subprocess' module instead and pass the arguments as a list."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/os-system-injection.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 39,
+                                    "startColumn": 5,
+                                    "endLine": 39,
+                                    "endColumn": 57
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.os-system-injection.os-system-injection",
+                    "message": {
+                        "text": "User data detected in os.system. This could be vulnerable to a command injection and should be avoided. If this must be done, use the 'subprocess' module instead and pass the arguments as a list."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/os-system-injection.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 45,
+                                    "startColumn": 5,
+                                    "endLine": 45,
+                                    "endColumn": 21
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.os-system-injection.os-system-injection",
+                    "message": {
+                        "text": "User data detected in os.system. This could be vulnerable to a command injection and should be avoided. If this must be done, use the 'subprocess' module instead and pass the arguments as a list."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/os-system-injection.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 51,
+                                    "startColumn": 5,
+                                    "endLine": 51,
+                                    "endColumn": 31
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.os-system-injection.os-system-injection",
+                    "message": {
+                        "text": "User data detected in os.system. This could be vulnerable to a command injection and should be avoided. If this must be done, use the 'subprocess' module instead and pass the arguments as a list."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/os-system-injection.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 57,
+                                    "startColumn": 5,
+                                    "endLine": 57,
+                                    "endColumn": 39
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.os-system-injection.os-system-injection",
+                    "message": {
+                        "text": "User data detected in os.system. This could be vulnerable to a command injection and should be avoided. If this must be done, use the 'subprocess' module instead and pass the arguments as a list."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/os-system-injection.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 63,
+                                    "startColumn": 5,
+                                    "endLine": 63,
+                                    "endColumn": 36
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.os-system-injection.os-system-injection",
+                    "message": {
+                        "text": "User data detected in os.system. This could be vulnerable to a command injection and should be avoided. If this must be done, use the 'subprocess' module instead and pass the arguments as a list."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/os-system-injection.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 69,
+                                    "startColumn": 5,
+                                    "endLine": 69,
+                                    "endColumn": 21
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.os-system-injection.os-system-injection",
+                    "message": {
+                        "text": "User data detected in os.system. This could be vulnerable to a command injection and should be avoided. If this must be done, use the 'subprocess' module instead and pass the arguments as a list."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/os-system-injection.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 76,
+                                    "startColumn": 9,
+                                    "endLine": 76,
+                                    "endColumn": 25
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.os-system-injection.os-system-injection",
+                    "message": {
+                        "text": "User data detected in os.system. This could be vulnerable to a command injection and should be avoided. If this must be done, use the 'subprocess' module instead and pass the arguments as a list."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/os-system-injection.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 83,
+                                    "startColumn": 5,
+                                    "endLine": 83,
+                                    "endColumn": 21
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.os-system-injection.os-system-injection",
+                    "message": {
+                        "text": "User data detected in os.system. This could be vulnerable to a command injection and should be avoided. If this must be done, use the 'subprocess' module instead and pass the arguments as a list."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/os-system-injection.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 90,
+                                    "startColumn": 5,
+                                    "endLine": 90,
+                                    "endColumn": 31
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.os-system-injection.os-system-injection",
+                    "message": {
+                        "text": "User data detected in os.system. This could be vulnerable to a command injection and should be avoided. If this must be done, use the 'subprocess' module instead and pass the arguments as a list."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/os-system-injection.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 97,
+                                    "startColumn": 5,
+                                    "endLine": 97,
+                                    "endColumn": 39
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.os-system-injection.os-system-injection",
+                    "message": {
+                        "text": "User data detected in os.system. This could be vulnerable to a command injection and should be avoided. If this must be done, use the 'subprocess' module instead and pass the arguments as a list."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/os-system-injection.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 104,
+                                    "startColumn": 5,
+                                    "endLine": 104,
+                                    "endColumn": 33
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.os-system-injection.os-system-injection",
+                    "message": {
+                        "text": "User data detected in os.system. This could be vulnerable to a command injection and should be avoided. If this must be done, use the 'subprocess' module instead and pass the arguments as a list."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/os-system-injection.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 117,
+                                    "startColumn": 13,
+                                    "endLine": 117,
+                                    "endColumn": 54
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.path-traversal-open.path-traversal-open",
+                    "message": {
+                        "text": "Found request data in a call to 'open'. Ensure the request data is validated or sanitized, otherwise it could result in path traversal attacks."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/path-traversal-open.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 10,
+                                    "startColumn": 12,
+                                    "endLine": 10,
+                                    "endColumn": 34
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.path-traversal-open.path-traversal-open",
+                    "message": {
+                        "text": "Found request data in a call to 'open'. Ensure the request data is validated or sanitized, otherwise it could result in path traversal attacks."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/path-traversal-open.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 16,
+                                    "startColumn": 10,
+                                    "endLine": 16,
+                                    "endColumn": 32
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.path-traversal-open.path-traversal-open",
+                    "message": {
+                        "text": "Found request data in a call to 'open'. Ensure the request data is validated or sanitized, otherwise it could result in path traversal attacks."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/path-traversal-open.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 23,
+                                    "startColumn": 10,
+                                    "endLine": 23,
+                                    "endColumn": 41
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.path-traversal-open.path-traversal-open",
+                    "message": {
+                        "text": "Found request data in a call to 'open'. Ensure the request data is validated or sanitized, otherwise it could result in path traversal attacks."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/path-traversal-open.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 30,
+                                    "startColumn": 9,
+                                    "endLine": 30,
+                                    "endColumn": 25
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.path-traversal-open.path-traversal-open",
+                    "message": {
+                        "text": "Found request data in a call to 'open'. Ensure the request data is validated or sanitized, otherwise it could result in path traversal attacks."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/path-traversal-open.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 36,
+                                    "startColumn": 12,
+                                    "endLine": 36,
+                                    "endColumn": 64
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.path-traversal-open.path-traversal-open",
+                    "message": {
+                        "text": "Found request data in a call to 'open'. Ensure the request data is validated or sanitized, otherwise it could result in path traversal attacks."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/path-traversal-open.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 42,
+                                    "startColumn": 12,
+                                    "endLine": 42,
+                                    "endColumn": 37
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.path-traversal-open.path-traversal-open",
+                    "message": {
+                        "text": "Found request data in a call to 'open'. Ensure the request data is validated or sanitized, otherwise it could result in path traversal attacks."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/path-traversal-open.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 48,
+                                    "startColumn": 12,
+                                    "endLine": 48,
+                                    "endColumn": 40
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.path-traversal-open.path-traversal-open",
+                    "message": {
+                        "text": "Found request data in a call to 'open'. Ensure the request data is validated or sanitized, otherwise it could result in path traversal attacks."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/path-traversal-open.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 54,
+                                    "startColumn": 12,
+                                    "endLine": 54,
+                                    "endColumn": 43
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.path-traversal-open.path-traversal-open",
+                    "message": {
+                        "text": "Found request data in a call to 'open'. Ensure the request data is validated or sanitized, otherwise it could result in path traversal attacks."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/path-traversal-open.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 61,
+                                    "startColumn": 14,
+                                    "endLine": 61,
+                                    "endColumn": 30
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.path-traversal-open.path-traversal-open",
+                    "message": {
+                        "text": "Found request data in a call to 'open'. Ensure the request data is validated or sanitized, otherwise it could result in path traversal attacks."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/path-traversal-open.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 68,
+                                    "startColumn": 10,
+                                    "endLine": 68,
+                                    "endColumn": 48
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.path-traversal-open.path-traversal-open",
+                    "message": {
+                        "text": "Found request data in a call to 'open'. Ensure the request data is validated or sanitized, otherwise it could result in path traversal attacks."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/path-traversal-open.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 75,
+                                    "startColumn": 10,
+                                    "endLine": 75,
+                                    "endColumn": 57
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.path-traversal-open.path-traversal-open",
+                    "message": {
+                        "text": "Found request data in a call to 'open'. Ensure the request data is validated or sanitized, otherwise it could result in path traversal attacks."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/path-traversal-open.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 84,
+                                    "startColumn": 12,
+                                    "endLine": 84,
+                                    "endColumn": 28
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.ssrf-requests.ssrf-requests",
+                    "message": {
+                        "text": "Data from request object is passed to a new server-side request. This could lead to a server-side request forgery (SSRF). To mitigate, ensure that schemes and hosts are validated against an allowlist, do not forward the response to the user, and ensure proper authentication and transport-layer security in the proxied request."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/ssrf-requests.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 10,
+                                    "startColumn": 12,
+                                    "endLine": 10,
+                                    "endColumn": 37
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.ssrf-requests.ssrf-requests",
+                    "message": {
+                        "text": "Data from request object is passed to a new server-side request. This could lead to a server-side request forgery (SSRF). To mitigate, ensure that schemes and hosts are validated against an allowlist, do not forward the response to the user, and ensure proper authentication and transport-layer security in the proxied request."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/ssrf-requests.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 16,
+                                    "startColumn": 5,
+                                    "endLine": 16,
+                                    "endColumn": 37
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.ssrf-requests.ssrf-requests",
+                    "message": {
+                        "text": "Data from request object is passed to a new server-side request. This could lead to a server-side request forgery (SSRF). To mitigate, ensure that schemes and hosts are validated against an allowlist, do not forward the response to the user, and ensure proper authentication and transport-layer security in the proxied request."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/ssrf-requests.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 21,
+                                    "startColumn": 5,
+                                    "endLine": 21,
+                                    "endColumn": 58
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.ssrf-requests.ssrf-requests",
+                    "message": {
+                        "text": "Data from request object is passed to a new server-side request. This could lead to a server-side request forgery (SSRF). To mitigate, ensure that schemes and hosts are validated against an allowlist, do not forward the response to the user, and ensure proper authentication and transport-layer security in the proxied request."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/ssrf-requests.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 27,
+                                    "startColumn": 5,
+                                    "endLine": 27,
+                                    "endColumn": 32
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.ssrf-requests.ssrf-requests",
+                    "message": {
+                        "text": "Data from request object is passed to a new server-side request. This could lead to a server-side request forgery (SSRF). To mitigate, ensure that schemes and hosts are validated against an allowlist, do not forward the response to the user, and ensure proper authentication and transport-layer security in the proxied request."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/ssrf-requests.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 33,
+                                    "startColumn": 5,
+                                    "endLine": 33,
+                                    "endColumn": 41
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.ssrf-requests.ssrf-requests",
+                    "message": {
+                        "text": "Data from request object is passed to a new server-side request. This could lead to a server-side request forgery (SSRF). To mitigate, ensure that schemes and hosts are validated against an allowlist, do not forward the response to the user, and ensure proper authentication and transport-layer security in the proxied request."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/ssrf-requests.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 39,
+                                    "startColumn": 5,
+                                    "endLine": 39,
+                                    "endColumn": 37
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.ssrf-requests.ssrf-requests",
+                    "message": {
+                        "text": "Data from request object is passed to a new server-side request. This could lead to a server-side request forgery (SSRF). To mitigate, ensure that schemes and hosts are validated against an allowlist, do not forward the response to the user, and ensure proper authentication and transport-layer security in the proxied request."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/ssrf-requests.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 46,
+                                    "startColumn": 9,
+                                    "endLine": 46,
+                                    "endColumn": 28
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.ssrf-requests.ssrf-requests",
+                    "message": {
+                        "text": "Data from request object is passed to a new server-side request. This could lead to a server-side request forgery (SSRF). To mitigate, ensure that schemes and hosts are validated against an allowlist, do not forward the response to the user, and ensure proper authentication and transport-layer security in the proxied request."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/ssrf-requests.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 53,
+                                    "startColumn": 5,
+                                    "endLine": 53,
+                                    "endColumn": 50
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.user-eval.eval-injection",
+                    "message": {
+                        "text": "Detected user data flowing into eval. This is code injection and should be avoided."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/user-eval.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 9,
+                                    "startColumn": 12,
+                                    "endLine": 9,
+                                    "endColumn": 29
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.user-eval.eval-injection",
+                    "message": {
+                        "text": "Detected user data flowing into eval. This is code injection and should be avoided."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/user-eval.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 15,
+                                    "startColumn": 5,
+                                    "endLine": 15,
+                                    "endColumn": 16
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.user-eval.eval-injection",
+                    "message": {
+                        "text": "Detected user data flowing into eval. This is code injection and should be avoided."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/user-eval.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 20,
+                                    "startColumn": 5,
+                                    "endLine": 20,
+                                    "endColumn": 54
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.user-eval.eval-injection",
+                    "message": {
+                        "text": "Detected user data flowing into eval. This is code injection and should be avoided."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/user-eval.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 26,
+                                    "startColumn": 5,
+                                    "endLine": 26,
+                                    "endColumn": 30
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.user-eval.eval-injection",
+                    "message": {
+                        "text": "Detected user data flowing into eval. This is code injection and should be avoided."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/user-eval.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 32,
+                                    "startColumn": 5,
+                                    "endLine": 32,
+                                    "endColumn": 36
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.user-eval.eval-injection",
+                    "message": {
+                        "text": "Detected user data flowing into eval. This is code injection and should be avoided."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/user-eval.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 38,
+                                    "startColumn": 5,
+                                    "endLine": 38,
+                                    "endColumn": 33
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.user-eval.eval-injection",
+                    "message": {
+                        "text": "Detected user data flowing into eval. This is code injection and should be avoided."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/user-eval.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 45,
+                                    "startColumn": 9,
+                                    "endLine": 45,
+                                    "endColumn": 20
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.user-eval.eval-injection",
+                    "message": {
+                        "text": "Detected user data flowing into eval. This is code injection and should be avoided."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/user-eval.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 52,
+                                    "startColumn": 5,
+                                    "endLine": 52,
+                                    "endColumn": 16
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.user-exec.exec-injection",
+                    "message": {
+                        "text": "Detected user data flowing into exec. This is code injection and should be avoided."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/user-exec.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 9,
+                                    "startColumn": 12,
+                                    "endLine": 9,
+                                    "endColumn": 29
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.user-exec.exec-injection",
+                    "message": {
+                        "text": "Detected user data flowing into exec. This is code injection and should be avoided."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/user-exec.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 15,
+                                    "startColumn": 5,
+                                    "endLine": 15,
+                                    "endColumn": 16
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.user-exec.exec-injection",
+                    "message": {
+                        "text": "Detected user data flowing into exec. This is code injection and should be avoided."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/user-exec.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 20,
+                                    "startColumn": 5,
+                                    "endLine": 20,
+                                    "endColumn": 54
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.user-exec.exec-injection",
+                    "message": {
+                        "text": "Detected user data flowing into exec. This is code injection and should be avoided."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/user-exec.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 26,
+                                    "startColumn": 5,
+                                    "endLine": 26,
+                                    "endColumn": 30
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.user-exec.exec-injection",
+                    "message": {
+                        "text": "Detected user data flowing into exec. This is code injection and should be avoided."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/user-exec.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 32,
+                                    "startColumn": 5,
+                                    "endLine": 32,
+                                    "endColumn": 36
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.user-exec.exec-injection",
+                    "message": {
+                        "text": "Detected user data flowing into exec. This is code injection and should be avoided."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/user-exec.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 38,
+                                    "startColumn": 5,
+                                    "endLine": 38,
+                                    "endColumn": 33
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.user-exec.exec-injection",
+                    "message": {
+                        "text": "Detected user data flowing into exec. This is code injection and should be avoided."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/user-exec.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 45,
+                                    "startColumn": 9,
+                                    "endLine": 45,
+                                    "endColumn": 20
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.injection.user-exec.exec-injection",
+                    "message": {
+                        "text": "Detected user data flowing into exec. This is code injection and should be avoided."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/injection/user-exec.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 52,
+                                    "startColumn": 5,
+                                    "endLine": 52,
+                                    "endColumn": 16
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.insecure-deserialization.insecure-deserialization",
+                    "message": {
+                        "text": "Detected the use of an insecure deserizliation library in a Flask route. These libraries\nare prone to code execution vulnerabilities. Ensure user data does not enter this function.\nTo fix this, try to avoid serializing whole objects. Consider instead using a serializer\nsuch as JSON.\n"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/insecure-deserialization.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 26,
+                                    "startColumn": 47,
+                                    "endLine": 26,
+                                    "endColumn": 69
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.flask.security.insecure-deserialization.insecure-deserialization",
+                    "message": {
+                        "text": "Detected the use of an insecure deserizliation library in a Flask route. These libraries\nare prone to code execution vulnerabilities. Ensure user data does not enter this function.\nTo fix this, try to avoid serializing whole objects. Consider instead using a serializer\nsuch as JSON.\n"
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/flask/security/insecure-deserialization.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 30,
+                                    "startColumn": 40,
+                                    "endLine": 30,
+                                    "endColumn": 73
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.jinja2.security.audit.autoescape-disabled.autoescape-disabled",
+                    "message": {
+                        "text": "Detected a Jinja2 environment without autoescaping. Jinja2 does not autoescape by default. This is dangerous if you are rendering to a browser because this allows for cross-site scripting (XSS) attacks. If you are in a web context, enable autoescaping by setting 'autoescape=True.' You may also consider using 'jinja2.select_autoescape()' to only enable automatic escaping for certain file extensions."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/jinja2/security/audit/autoescape-disabled.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 16,
+                                    "startColumn": 1,
+                                    "endLine": 16,
+                                    "endColumn": 78
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.jinja2.security.audit.autoescape-disabled.autoescape-disabled",
+                    "message": {
+                        "text": "Detected a Jinja2 environment without autoescaping. Jinja2 does not autoescape by default. This is dangerous if you are rendering to a browser because this allows for cross-site scripting (XSS) attacks. If you are in a web context, enable autoescaping by setting 'autoescape=True.' You may also consider using 'jinja2.select_autoescape()' to only enable automatic escaping for certain file extensions."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/jinja2/security/audit/autoescape-disabled.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 20,
+                                    "startColumn": 15,
+                                    "endLine": 20,
+                                    "endColumn": 75
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.jinja2.security.audit.autoescape-disabled.autoescape-disabled",
+                    "message": {
+                        "text": "Detected a Jinja2 environment without autoescaping. Jinja2 does not autoescape by default. This is dangerous if you are rendering to a browser because this allows for cross-site scripting (XSS) attacks. If you are in a web context, enable autoescaping by setting 'autoescape=True.' You may also consider using 'jinja2.select_autoescape()' to only enable automatic escaping for certain file extensions."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/jinja2/security/audit/autoescape-disabled.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 24,
+                                    "startColumn": 1,
+                                    "endLine": 26,
+                                    "endColumn": 30
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.jinja2.security.audit.autoescape-disabled.autoescape-disabled",
+                    "message": {
+                        "text": "Detected a Jinja2 environment without autoescaping. Jinja2 does not autoescape by default. This is dangerous if you are rendering to a browser because this allows for cross-site scripting (XSS) attacks. If you are in a web context, enable autoescaping by setting 'autoescape=True.' You may also consider using 'jinja2.select_autoescape()' to only enable automatic escaping for certain file extensions."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/jinja2/security/audit/autoescape-disabled.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 30,
+                                    "startColumn": 1,
+                                    "endLine": 31,
+                                    "endColumn": 33
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.jinja2.security.audit.autoescape-disabled.autoescape-disabled",
+                    "message": {
+                        "text": "Detected a Jinja2 environment without autoescaping. Jinja2 does not autoescape by default. This is dangerous if you are rendering to a browser because this allows for cross-site scripting (XSS) attacks. If you are in a web context, enable autoescaping by setting 'autoescape=True.' You may also consider using 'jinja2.select_autoescape()' to only enable automatic escaping for certain file extensions."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/jinja2/security/audit/autoescape-disabled.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 46,
+                                    "startColumn": 1,
+                                    "endLine": 46,
+                                    "endColumn": 59
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.lang.correctness.common-mistakes.default-mutable-dict.default-mutable-dict",
+                    "message": {
+                        "text": "Function assign_func1 mutates default dict default. Python only instantiates default function arguments once and shares the instance across the function calls. If the default function argument is mutated, that will modify the instance used by all future function calls. This can cause unexpected results, or lead to security vulnerabilities whereby one function consumer can view or modify the data of another function consumer. Instead, use a default argument (like None) to indicate that no argument was provided and instantiate a new dictionary at that time. For example: `if default is None: default = {}`."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/lang/correctness/common-mistakes/default-mutable-dict.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 4,
+                                    "startColumn": 1,
+                                    "endLine": 5,
+                                    "endColumn": 26
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.lang.correctness.common-mistakes.default-mutable-dict.default-mutable-dict",
+                    "message": {
+                        "text": "Function assign_func2 mutates default dict default. Python only instantiates default function arguments once and shares the instance across the function calls. If the default function argument is mutated, that will modify the instance used by all future function calls. This can cause unexpected results, or lead to security vulnerabilities whereby one function consumer can view or modify the data of another function consumer. Instead, use a default argument (like None) to indicate that no argument was provided and instantiate a new dictionary at that time. For example: `if default is None: default = {}`."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/lang/correctness/common-mistakes/default-mutable-dict.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 9,
+                                    "startColumn": 1,
+                                    "endLine": 11,
+                                    "endColumn": 23
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.lang.correctness.common-mistakes.default-mutable-dict.default-mutable-dict",
+                    "message": {
+                        "text": "Function assign_func4 mutates default dict default. Python only instantiates default function arguments once and shares the instance across the function calls. If the default function argument is mutated, that will modify the instance used by all future function calls. This can cause unexpected results, or lead to security vulnerabilities whereby one function consumer can view or modify the data of another function consumer. Instead, use a default argument (like None) to indicate that no argument was provided and instantiate a new dictionary at that time. For example: `if default is None: default = {}`."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/lang/correctness/common-mistakes/default-mutable-dict.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 21,
+                                    "startColumn": 1,
+                                    "endLine": 22,
+                                    "endColumn": 21
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.lang.correctness.common-mistakes.default-mutable-dict.default-mutable-dict",
+                    "message": {
+                        "text": "Function assign_func5 mutates default dict default. Python only instantiates default function arguments once and shares the instance across the function calls. If the default function argument is mutated, that will modify the instance used by all future function calls. This can cause unexpected results, or lead to security vulnerabilities whereby one function consumer can view or modify the data of another function consumer. Instead, use a default argument (like None) to indicate that no argument was provided and instantiate a new dictionary at that time. For example: `if default is None: default = {}`."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/lang/correctness/common-mistakes/default-mutable-dict.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 26,
+                                    "startColumn": 1,
+                                    "endLine": 28,
+                                    "endColumn": 30
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.lang.correctness.common-mistakes.default-mutable-dict.default-mutable-dict",
+                    "message": {
+                        "text": "Function assign_func6 mutates default dict default. Python only instantiates default function arguments once and shares the instance across the function calls. If the default function argument is mutated, that will modify the instance used by all future function calls. This can cause unexpected results, or lead to security vulnerabilities whereby one function consumer can view or modify the data of another function consumer. Instead, use a default argument (like None) to indicate that no argument was provided and instantiate a new dictionary at that time. For example: `if default is None: default = {}`."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/lang/correctness/common-mistakes/default-mutable-dict.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 32,
+                                    "startColumn": 1,
+                                    "endLine": 33,
+                                    "endColumn": 19
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.lang.correctness.common-mistakes.default-mutable-dict.default-mutable-dict",
+                    "message": {
+                        "text": "Function assign_func8 mutates default dict default. Python only instantiates default function arguments once and shares the instance across the function calls. If the default function argument is mutated, that will modify the instance used by all future function calls. This can cause unexpected results, or lead to security vulnerabilities whereby one function consumer can view or modify the data of another function consumer. Instead, use a default argument (like None) to indicate that no argument was provided and instantiate a new dictionary at that time. For example: `if default is None: default = {}`."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/lang/correctness/common-mistakes/default-mutable-dict.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 45,
+                                    "startColumn": 1,
+                                    "endLine": 48,
+                                    "endColumn": 14
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.lang.correctness.common-mistakes.default-mutable-dict.default-mutable-dict",
+                    "message": {
+                        "text": "Function update_func1 mutates default dict default. Python only instantiates default function arguments once and shares the instance across the function calls. If the default function argument is mutated, that will modify the instance used by all future function calls. This can cause unexpected results, or lead to security vulnerabilities whereby one function consumer can view or modify the data of another function consumer. Instead, use a default argument (like None) to indicate that no argument was provided and instantiate a new dictionary at that time. For example: `if default is None: default = {}`."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/lang/correctness/common-mistakes/default-mutable-dict.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 52,
+                                    "startColumn": 1,
+                                    "endLine": 53,
+                                    "endColumn": 27
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.lang.correctness.common-mistakes.default-mutable-dict.default-mutable-dict",
+                    "message": {
+                        "text": "Function update_func2 mutates default dict default. Python only instantiates default function arguments once and shares the instance across the function calls. If the default function argument is mutated, that will modify the instance used by all future function calls. This can cause unexpected results, or lead to security vulnerabilities whereby one function consumer can view or modify the data of another function consumer. Instead, use a default argument (like None) to indicate that no argument was provided and instantiate a new dictionary at that time. For example: `if default is None: default = {}`."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/lang/correctness/common-mistakes/default-mutable-dict.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 57,
+                                    "startColumn": 1,
+                                    "endLine": 59,
+                                    "endColumn": 31
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.lang.correctness.common-mistakes.default-mutable-dict.default-mutable-dict",
+                    "message": {
+                        "text": "Function update_func4 mutates default dict default. Python only instantiates default function arguments once and shares the instance across the function calls. If the default function argument is mutated, that will modify the instance used by all future function calls. This can cause unexpected results, or lead to security vulnerabilities whereby one function consumer can view or modify the data of another function consumer. Instead, use a default argument (like None) to indicate that no argument was provided and instantiate a new dictionary at that time. For example: `if default is None: default = {}`."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/lang/correctness/common-mistakes/default-mutable-dict.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 69,
+                                    "startColumn": 1,
+                                    "endLine": 70,
+                                    "endColumn": 27
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.lang.correctness.common-mistakes.default-mutable-dict.default-mutable-dict",
+                    "message": {
+                        "text": "Function update_func5 mutates default dict default. Python only instantiates default function arguments once and shares the instance across the function calls. If the default function argument is mutated, that will modify the instance used by all future function calls. This can cause unexpected results, or lead to security vulnerabilities whereby one function consumer can view or modify the data of another function consumer. Instead, use a default argument (like None) to indicate that no argument was provided and instantiate a new dictionary at that time. For example: `if default is None: default = {}`."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/lang/correctness/common-mistakes/default-mutable-dict.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 74,
+                                    "startColumn": 1,
+                                    "endLine": 76,
+                                    "endColumn": 31
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.lang.correctness.common-mistakes.default-mutable-dict.default-mutable-dict",
+                    "message": {
+                        "text": "Function update_func6 mutates default dict default. Python only instantiates default function arguments once and shares the instance across the function calls. If the default function argument is mutated, that will modify the instance used by all future function calls. This can cause unexpected results, or lead to security vulnerabilities whereby one function consumer can view or modify the data of another function consumer. Instead, use a default argument (like None) to indicate that no argument was provided and instantiate a new dictionary at that time. For example: `if default is None: default = {}`."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/lang/correctness/common-mistakes/default-mutable-dict.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 80,
+                                    "startColumn": 1,
+                                    "endLine": 81,
+                                    "endColumn": 27
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.lang.correctness.common-mistakes.default-mutable-dict.default-mutable-dict",
+                    "message": {
+                        "text": "Function update_func8 mutates default dict default. Python only instantiates default function arguments once and shares the instance across the function calls. If the default function argument is mutated, that will modify the instance used by all future function calls. This can cause unexpected results, or lead to security vulnerabilities whereby one function consumer can view or modify the data of another function consumer. Instead, use a default argument (like None) to indicate that no argument was provided and instantiate a new dictionary at that time. For example: `if default is None: default = {}`."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/lang/correctness/common-mistakes/default-mutable-dict.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 93,
+                                    "startColumn": 1,
+                                    "endLine": 96,
+                                    "endColumn": 14
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.lang.correctness.common-mistakes.default-mutable-dict.default-mutable-dict",
+                    "message": {
+                        "text": "Function setdefault_func1 mutates default dict default. Python only instantiates default function arguments once and shares the instance across the function calls. If the default function argument is mutated, that will modify the instance used by all future function calls. This can cause unexpected results, or lead to security vulnerabilities whereby one function consumer can view or modify the data of another function consumer. Instead, use a default argument (like None) to indicate that no argument was provided and instantiate a new dictionary at that time. For example: `if default is None: default = {}`."
+                    },
+                    "locations": [
+                        {
+                            "physicalLocation": {
+                                "artifactLocation": {
+                                    "uri": "python/lang/correctness/common-mistakes/default-mutable-dict.py",
+                                    "uriBaseId": "%SRCROOT%"
+                                },
+                                "region": {
+                                    "startLine": 100,
+                                    "startColumn": 1,
+                                    "endLine": 101,
+                                    "endColumn": 29
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "ruleId": "python.lang.correctness.common-mistakes.default-mutable-dict.default-mutable-dict",
+                    "message": {
+                        "text": "Function setdefault_func2 mutates default dict default. Python only instantiates default function arguments once and shares the instance across the function calls. If the default function argument
